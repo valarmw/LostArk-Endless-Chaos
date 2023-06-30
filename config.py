@@ -40,14 +40,14 @@ config = {
     "characters": characters,
     "performance": False,  # set True for lower-end PCs
     "interact": "g",  # change this if you have binded it to something else eg.mouse button
-    "move": "left",  # or "right"
+    "move": "right",  # or "right"
     "blink": "space",
     "meleeAttack": "c",
     "awakening": "v",
-    "healthPot": "f1",  # important to put your regen potion on this button
+    "healthPot": "5",  # important to put your regen potion on this button
     "friends": "u",
     "invisible": True,
-    "healthPotAtPercent": 0.35,  # health threshold to trigger potion
+    "healthPotAtPercent": 0.5,  # health threshold to trigger potion
     # "useAwakening": True, # not checking this for now
     # "useSpeciality1": True, # not checking this for now
     # "useSpeciality2": True, # not checking this for now
