@@ -523,7 +523,7 @@ abilities = {
             "directional": True,
         },
         {
-            "key": "s",A
+            "key": "s",
             "abilityType": "normal",
             "hold": False,
             "holdTime": None,
