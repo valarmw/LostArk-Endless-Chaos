@@ -46,8 +46,8 @@ config = {
     "awakening": "v",
     "healthPot": "5",  # important to put your regen potion on this button
     "friends": "u",
-    "invisible": True,
-    "healthPotAtPercent": 0.5,  # health threshold to trigger potion
+    "invisible": False,
+    "healthPotAtPercent": 0.4,  # health threshold to trigger potion
     # "useAwakening": True, # not checking this for now
     # "useSpeciality1": True, # not checking this for now
     # "useSpeciality2": True, # not checking this for now
