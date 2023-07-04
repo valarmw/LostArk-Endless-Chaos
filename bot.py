@@ -421,7 +421,7 @@ def enterChaos():
             sleep(200, 300)
 
             currentTime = int(time.time_ns() / 1000000)
-            if currentTime - blackScreenStartTime > config["blackScreenTimeLimit"]:
+            # if currentTime - blackScreenStartTime > config["blackScreenTimeLimit"]:
                 pydirectinput.keyDown("alt")
                 sleep(350, 400)
                 pydirectinput.keyDown("f4")
