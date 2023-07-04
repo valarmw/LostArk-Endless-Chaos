@@ -1363,15 +1363,14 @@ def useAbilities():
             # class specific stuff
             if (
                 config["characters"][states["currentCharacter"]]["class"] == "arcana"
-                or config["characters"][states["currentCharacter"]]["class"]
-                == "deathblade"
+                or config["characters"][states["currentCharacter"]]["class"] == "deathblade"
             ):
                 pydirectinput.press("x")
                 pydirectinput.press("z")
             elif (
                 config["characters"][states["currentCharacter"]]["class"] == "summoner"
                 or config["characters"][states["currentCharacter"]]["class"] == "slayer"
-                # or config["characters"][states["currentCharacter"]]["class"] == "bard"
+                or config["characters"][states["currentCharacter"]]["class"] == "bard"
                 and (i == 1 or i == 3 or i == 5 or i == 7)
             ):
                 if (
