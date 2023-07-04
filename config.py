@@ -27,7 +27,7 @@ config = {
     "mainCharacter": 0,  # must be in between number 0 to len(characters) - 1 (0 is the first character)
     "GFN": True,  # set True for Geforce Now users
     "enableMultiCharacterMode": True,  # this is lit
-    "enableLopang": True,  # NOTE: you need to setup bifrost locations properly for this, at very specific locations. Look up ^
+    "enableLopang": False,  # NOTE: you need to setup bifrost locations properly for this, at very specific locations. Look up ^
     "enableGuildDonation": True,  # please make sure all your characters have a guild
     "enableRapport": False,  # NOTE: you need to setup bifrost no3 infront of a rapport NPC
     "floor3Mode": False,  # only enable if you ONLY want to run infinite floor3 clearing
